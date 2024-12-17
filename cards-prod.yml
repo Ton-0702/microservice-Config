@@ -4,7 +4,7 @@ build:
 
 #Define properties
 cards:
-  message: "Welcome to EazyBank cards related prod APIs "
+  message: "Welcome to EazyBank cards related production APIs "
   contactDetails:
     name: "Duy - Product Owner"
     email: "Duy@eazybank.com"
