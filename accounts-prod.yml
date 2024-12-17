@@ -4,7 +4,7 @@ build:
 
 # Define Properties
 accounts:
-  message: "Welcome to EazyBank accounts related production APIs"
+  message: "Welcome to EazyBank accounts related prod APIs"
   contactDetails:
     name: "Dat - Product Owner"
     email: "{cipher}3cf2f414f2354e50491361c384e9d044a22b79c66dc45c556a6ddfa7148410c99678d815b86eefa90f40381956117c4b"
