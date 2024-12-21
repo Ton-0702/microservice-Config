@@ -4,7 +4,7 @@ build:
 
 # Define Properties
 accounts:
-  message: "Welcome to EazyBank accounts related docker APIs"
+  message: "Welcome to EazyBank accounts related local APIs"
   contactDetails:
     name: "Toan - Developer"
     email: "john@eazybank.com"
