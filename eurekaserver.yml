@@ -1,0 +1,16 @@
+server:
+  port: 8070
+
+eureka:
+  instance:
+    hostname: localhost # telling to the Eureka server to use localhost as the hostname (localhost ở đây là máy chủ mình)
+  client:
+    # fetchRegistry: don't fetch the registry details of microservices (không lấy thông tin từ các microservice khác)
+    # but in accounts, loans, cards microservices sẽ là true => ở đây cái này giá trị default sẽ là true
+    fetchRegistry: false
+    # registerWithEureka: don't register with yourself and don't expose (tiết lộ) details info into registry of the service Discovery
+    registerWithEureka: false
+    serviceUrl:
+      # URL where Eureka server is running to expose the microservice anđ functionality, they can connect to register
+      # their details or to discover other service details.
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
