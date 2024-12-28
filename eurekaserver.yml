@@ -13,4 +13,4 @@ eureka:
     serviceUrl:
       # URL where Eureka server is running to expose the microservice anđ functionality, they can connect to register
       # their details or to discover other service details.
-      defaultZone: http://localhost:8070/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
